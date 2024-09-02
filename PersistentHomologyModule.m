@@ -18,7 +18,6 @@ plot(Use_strongest25);
 %relevant tables
 A = Use_strongest25.Location;
 D = zeros(1,400);
-%perhom = zeros(3,500);
 
 %finds which keypoints are connected over each radius
 for r = 1:steps
